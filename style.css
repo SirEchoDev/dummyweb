@@ -38,3 +38,15 @@ ul,
 li {
   list-style: none;
 }
+
+/* hero seciton */
+
+section {
+  height: 100%;
+}
+
+.hero-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
