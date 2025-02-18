@@ -1,0 +1,40 @@
+nav,
+section {
+  max-width: 1600px;
+  width: 100%;
+  margin: auto;
+}
+
+span {
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;       
+    font-weight: 700;
+}
+
+li {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.nav-header {
+  background: lightblue;
+}
+
+.nav-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.list-menu > ul {
+  display: flex;
+  gap: 40px;
+}
+
+ul,
+li {
+  list-style: none;
+}
